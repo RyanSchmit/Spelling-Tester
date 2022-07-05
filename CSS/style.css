@@ -1,5 +1,5 @@
 * {
-
+	background-color: aqua;
 }
 
 .input {
@@ -8,4 +8,37 @@
 
 h1 {
 	text-align: center;
+	color: white;
+}
+
+.input {
+	background-color: white;
+	border: 2px solid blue;
+	border-radius: 16px;
+}
+
+.input-section {
+	display: flex;
+	justify-content: center;
+}
+
+.bottom {
+	display: flex;
+	justify-content: center;
+}
+
+.start-test {
+	background-color: white;
+	border: 2px solid blue;
+	border-radius: 16px;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 5px 10px;
+	float: right;
+	margin-right: 300px;
+}
+
+.start-test:hover {
+	background-color: blue;
+	color: white;
 }

@@ -33,8 +33,8 @@ function checkSpelling() {
 	if (word == spellingAttempt.value) {
 		spellingAttempt.value = '';
 		alert("Correct! :)");
-		newWord();
 		console.log(words);
+		newWord();
   } else {
     alert("Incorrect, try again");
 	spellingAttempt.value = '';
